@@ -1,0 +1,10 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "feiliu-home-design",
+  "version": "1.0.0",
+  "description": "Create a Feiliu residential design proposal using the team's latest prompt from GitHub.",
+  "author": {
+    "name": "Home Designer Team"
+  },
+  "repository": "https://github.com/pridecai1989-czh/home-designer"
+}

@@ -2,9 +2,9 @@
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "feiliu-home-design",
   "version": "1.0.0",
-  "description": "Create a Feiliu residential design proposal using the team's latest prompt from GitHub.",
+  "description": "读取团队维护的最新版飞流 AI 住宅设计提示词，并根据户型图与客户需求制作方案讲解 PDF 和独立轴侧图 PNG。",
   "author": {
-    "name": "Home Designer Team"
+    "name": "家居设计团队"
   },
   "repository": "https://github.com/pridecai1989-czh/home-designer"
 }

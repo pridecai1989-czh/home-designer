@@ -1,0 +1,20 @@
+{
+  "name": "home-designer",
+  "interface": {
+    "displayName": "Home Designer Team Skills"
+  },
+  "plugins": [
+    {
+      "name": "feiliu-home-design",
+      "source": {
+        "source": "local",
+        "path": "./plugins/feiliu-home-design"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

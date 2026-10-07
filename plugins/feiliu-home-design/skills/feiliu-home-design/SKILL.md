@@ -1,5 +1,24 @@
 ---
 name: feiliu-home-design
+description: 根据户型图和客户需求，制作飞流 AI 住宅设计提案 PDF 与独立轴侧图 PNG。需要完成住宅设计方案或方案讲解交付时使用。
+---
+
+# 飞流 AI 住宅设计方案
+
+开始设计前，必须先读取 GitHub 上的最新版完整提示词：
+
+https://raw.githubusercontent.com/pridecai1989-czh/home-designer/main/feiliu-home-design-prompt.md
+
+每次调用本 Skill 都要重新读取，不得沿用此前任务、对话、记忆或本地副本中的提示词。
+
+优先使用当前可用的网页浏览或网页读取能力打开上述 raw 链接，并读取完整内容。如果无法通过网页读取，可使用可用的 HTTP 工具获取链接内容。确认返回的是非空 Markdown 提示词，而非 HTML 页面、登录页面或错误信息；内容中必须包含标题“方案讲解PDF + 轴侧图”。
+
+如果无法读取或验证最新版提示词，立即停止，并告知用户无法加载 GitHub 上的正式提示词。不得退回旧版本或缓存副本，也不得要求用户提供凭证或访问令牌。
+
+成功读取后，严格以该最新版提示词作为本次设计任务的依据。只使用当前任务提供的户型图和客户资料，不得带入其他客户或此前任务的信息。如果材料缺失或无法辨认，先向用户索取。
+
+按提示词要求制作可交付的方案讲解 PDF 和独立轴侧图 PNG。完成后提供两个文件，并简要说明设计方向和文件保存位置。---
+name: feiliu-home-design
 description: Create a Feiliu AI residential design proposal from a floor plan and client needs, including a proposal PDF and a separate axonometric PNG. Use whenever asked to prepare this design deliverable.
 ---
 
